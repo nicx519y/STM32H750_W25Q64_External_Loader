@@ -1,6 +1,12 @@
-
-#ifndef DEV_INF_H_
-#define DEV_INF_H_
+/*********************************************
+ * @file Dev_Inf.h
+ * @brief modified by Mauro linking W25Qxxx library
+ * @date: 01 august 2023
+ * @version V.1.0.0
+ *
+ *********************************************
+ * you shouldn't need to change anything here
+ *********************************************/
 
 #define 	MCU_FLASH 	1
 #define 	NAND_FLASH  2
@@ -31,7 +37,3 @@ struct StorageInfo
    unsigned char  EraseValue;					// Content of Erased Memory
    struct 	  DeviceSectors	 sectors[SECTOR_NUM];
 };
-
-
-
-#endif /* DEV_INF_H_ */
